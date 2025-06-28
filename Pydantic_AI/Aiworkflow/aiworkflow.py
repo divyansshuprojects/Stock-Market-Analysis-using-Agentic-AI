@@ -16,9 +16,9 @@ from tavily import TavilyClient
 from dataclasses import dataclass
 
 # Set API keys
-os.environ["FIREWORKS_API_KEY"] = "fw_3ZZmgmxh6hPjXDM3QEdivKQg"
-os.environ["TAVILY_API_KEY"] = "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"
-os.environ["FMP_API_KEY"] = "6823c7f82ca6a09333c5a296c3269b5a"
+os.environ["FIREWORKS_API_KEY"] = ""
+os.environ["TAVILY_API_KEY"] = ""
+os.environ["FMP_API_KEY"] = ""
 
 # Configure Fireworks model
 fireworks_model = OpenAIModel(
