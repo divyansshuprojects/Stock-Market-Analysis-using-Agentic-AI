@@ -7,8 +7,7 @@ from pydantic_ai.mcp import MCPServerStdio
 from pydantic_ai.models.openai import OpenAIModel
 from pydantic_ai.providers.openai import OpenAIProvider
  
-os.environ["FIREWORKS_API_KEY"] = "fw_3ZZmgmxh6hPjXDM3QEdivKQg"
- 
+os.environ["FIREWORKS_API_KEY"] = ""
 # Load environment variables
 load_dotenv(override=True)
  
