@@ -14,9 +14,9 @@ from pydantic_ai.models.openai import OpenAIModel
 from pydantic_ai.providers.openai import OpenAIProvider
 
 # Set API keys
-os.environ["FIREWORKS_API_KEY"] = "fw_3ZZmgmxh6hPjXDM3QEdivKQg"
-os.environ["TAVILY_API_KEY"] = "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"
-os.environ["FMP_API_KEY"] = "6823c7f82ca6a09333c5a296c3269b5a"  # Replace with your Financial Modeling Prep API key
+os.environ["FIREWORKS_API_KEY"] = ""
+os.environ["TAVILY_API_KEY"] = ""
+os.environ["FMP_API_KEY"] = ""  # Replace with your Financial Modeling Prep API key
 
 # Configure Fireworks model
 fireworks_model = OpenAIModel(
