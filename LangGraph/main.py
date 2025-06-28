@@ -16,7 +16,7 @@ from langchain_core.prompts import ChatPromptTemplate
 
 # Load environment variables
 load_dotenv(override=True)
-os.environ["FIREWORKS_API_KEY"] = "fw_3ZZmgmxh6hPjXDM3QEdivKQg"
+os.environ["FIREWORKS_API_KEY"] = ""
 os.environ["OPENAI_API_KEY"] = os.environ["FIREWORKS_API_KEY"]
 # Set API keys
 FIREWORKS_API_KEY = os.getenv("FIREWORKS_API_KEY")
